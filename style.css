@@ -1,20 +1,28 @@
 body {
-    font-family: sans-serif;-
-    background: blue ;}
+    font-family: sans-serif;
+    background-image:linear-gradient(yellow, blue, brown, gray) ;}
 header img{
     width: 200px;
     height:90px;
+ }
+ header a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
  }
 header{
     background-color: green;
     display:flex;
     align-items:center;
+
     
 }
- a :visited {
+header a:visited {
     font-size: 20px;
-text-decoration: none;
+text-decoration: underline;
 color: wheat;
+
 }
  a {
     text-decoration: none;
@@ -22,7 +30,7 @@ color: wheat;
 }
 h1{
     text-align: center;
-    color: red;
+    color:red;
     font-size: 70px;
 }
 .hgeuih{
@@ -30,14 +38,18 @@ h1{
 }
 img{
     width: 1500px;
+    
 }
 p{
     background-color: slategrey;
     border: solid 3px red;
 
 }
-.tehh:hover{
-   font-size: 5px; 
-   color: red;
-   background-color: black;
+
+footer p {
+font-size: 50px;
+background-color: black;
+color: wheat;
+text-align: center;
+
 }
