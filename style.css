@@ -7,6 +7,8 @@ header img{
  }
 header{
     background-color: green;
+    display:flex;
+    align-items:center;
     
 }
  a :visited {
@@ -21,7 +23,7 @@ color: wheat;
 h1{
     text-align: center;
     color: red;
-    font-size: 40px;
+    font-size: 70px;
 }
 .hgeuih{
     width: 1500px;
